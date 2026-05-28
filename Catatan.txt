@@ -1,0 +1,11 @@
+- Ketika klik daftar di program langsung otomatis mengisi template pesan
+
+1. Apa ada rating dreamnest? kalau ada berapa dari berapa?
+2. Ada berapa siswa?
+3. Tentornya ada berapa?
+4. Apa saja yang diunggulkan?
+5. Apa saja program pembelajaran yg tersedia?
+6. Daftar harga program pembelajaran?
+7. Kebutuhan pembelajaran
+8. Apa ada testimoni?
+9. Sosmednya apa saja?
