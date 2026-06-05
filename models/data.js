@@ -6,7 +6,7 @@
 // ─── STATE GLOBAL ───
 const AppState = {
   stats: {
-    students: 350,
+    students: 50,
     teachers: 25,
     success: 98
   },
@@ -37,14 +37,21 @@ const AppState = {
 
 // ─── DATA PROGRAM ───
 const programs = [{
+  level: 'PAUDTK',
+  badge: 'PAUD & TK',
+  title: 'Bimbel PAUD & TK',
+  desc: 'Program belajar menyenangkan untuk anak PAUD & TK. Fokus pada pemahaman basa, angka, dan pengembangan motorik melalui metode interaktif.',
+  price: 'Rp 35.000',
+  period: '/1x pertemuan',
+  color: '#7B3F00',
+  emoji: '👶',
+}, {
   level: 'SD',
   badge: 'Kelas 1–6',
   title: 'Bimbel Sekolah Dasar',
   desc: 'Program belajar menyenangkan untuk anak SD. Fokus pada pemahaman dasar Matematika, Bahasa Indonesia, dan IPA.',
-  duration: '2× seminggu',
-  students: '8–12 siswa',
-  price: 'Rp 350.000',
-  period: '/bulan',
+  price: 'Rp 40.000',
+  period: '/1x pertemuan',
   color: '#4A7C1F',
   emoji: '📚',
 }, {
@@ -52,10 +59,8 @@ const programs = [{
   badge: 'Kelas 7–9',
   title: 'Bimbel Sekolah Menengah',
   desc: 'Persiapan UN dan penguatan materi SMP. Matematika, IPA, IPS, Bahasa Inggris, dan Bahasa Indonesia.',
-  duration: '3× seminggu',
-  students: '6–10 siswa',
-  price: 'Rp 500.000',
-  period: '/bulan',
+  price: 'Rp 50.000',
+  period: '/1x pertemuan',
   color: '#1B3A6E',
   emoji: '🔬',
 }, {
@@ -63,23 +68,19 @@ const programs = [{
   badge: 'Kelas 10–12',
   title: 'Bimbel Sekolah Menengah Atas',
   desc: 'Persiapan UN, SNBT, dan UTBK. Semua mata pelajaran IPA/IPS dengan tutor spesialis.',
-  duration: '4× seminggu',
-  students: '4–8 siswa',
-  price: 'Rp 750.000',
-  period: '/bulan',
+  price: 'Rp 65.000',
+  period: '/1x pertemuan',
   color: '#E8652A',
   emoji: '🎯',
 }, {
-  level: 'UTBK',
-  badge: 'Intensif',
-  title: 'Persiapan SNBT & UTBK',
-  desc: 'Program intensif khusus calon mahasiswa. Try out, pembahasan soal, dan strategi mengerjakan ujian.',
-  duration: '5× seminggu',
-  students: '4–6 siswa',
-  price: 'Rp 1.200.000',
-  period: '/bulan',
+  level: 'BTQ/Mengaji',
+  badge: 'BTQ & Mengaji',
+  title: 'Bimbel BTQ & Mengaji',
+  desc: 'Program belajar Al-Qur\'an untuk semua usia. Fokus pada tajwid, hafalan, dan pemahaman Al-Qur\'an dengan metode yang menyenangkan.',
+  price: 'Rp 30.000',
+  period: '/1x pertemuan',
   color: '#C04E18',
-  emoji: '🏆',
+  emoji: '📖',
 }, ];
 
 // ─── DATA TESTIMONI ───
